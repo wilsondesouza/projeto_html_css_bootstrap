@@ -1,0 +1,419 @@
+/* Estilização da Página Principal */
+
+header {
+    padding: 0.5rem;
+    background-color: #212529;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+span,
+p {
+    text-align: center;
+    color: black;
+}
+
+body {
+    background-color: white;
+    ;
+}
+
+.menu {
+    z-index: 2;
+    width: 100%;
+    position: fixed;
+    background-color: #212529;
+    margin-left: -10px;
+    margin-top: -10px;
+    height: 3.5rem
+}
+
+.menu .logo {
+    width: 3rem;
+    height: 2.6rem;
+    margin-left: 0.5rem;
+    min-width: auto;
+}
+
+.menu .central {
+    text-decoration: none;
+    font-size: 2.5rem;
+    margin-top: 0.2rem;
+    min-width: auto;
+}
+
+.menu .central h2:hover {
+    color: white;
+    transition: .2s ease-in-out, background-color .7s ease-in-out, color .7s ease-in-out;
+}
+
+@media (max-width: 280px) {
+    .central {
+        width: 1.2px;
+        height: 2px;
+        padding-bottom: 2rem;
+    }
+}
+
+.central h2 {
+    color: gold;
+}
+
+.nav-link {
+    color: white;
+    background-color: #212529;
+}
+
+.nav-link:hover {
+    color: gold;
+    transition: .2s ease-in-out, background-color .7s ease-in-out, color .7s ease-in-out;
+}
+
+@media (min-width: 1024px) and (max-width: 1050px) {
+    .navbar-expand-lg .navbar-collapse {
+        flex-basis: auto;
+        padding-left: 28.7rem;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1023px) {
+    .navbar-expand-lg .navbar-collapse {
+        flex-basis: auto;
+        padding-left: 28.7rem;
+    }
+}
+
+@media (min-width: 1051px) and (max-width: 1280px) {
+    .navbar-expand-lg .navbar-collapse {
+        flex-basis: auto;
+        padding-left: 35.7rem;
+    }
+}
+
+@media (min-width: 1280px) and (max-width: 1600px) {
+    .navbar-expand-lg .navbar-collapse {
+        flex-basis: auto;
+        padding-left: 43.8rem;
+    }
+}
+
+@media (min-width: 1300px) and (max-width: 1450px) {
+    .navbar-expand-lg .navbar-collapse {
+        flex-basis: auto;
+        padding-left: 47.4rem;
+    }
+}
+
+@media (min-width: 1500px) {
+    .navbar-expand-lg .navbar-collapse {
+        flex-basis: auto;
+        padding-left: 62rem;
+    }
+}
+
+/* .navbar-toggler-icon {
+                    display: inline-block;
+                    margin-right: rem;
+                    width: 1.5em;
+                    height: 1.5em;
+                    vertical-align: middle;
+                    background-image: var(--bs-navbar-toggler-icon-bg);
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: 100%;
+                } */
+
+
+
+
+.carrosel {
+    width: 100%;
+    height: 100%;
+}
+
+main {
+    background-color: white;
+}
+
+.about-us {
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    background-color: #212529;
+}
+
+.about-us img {
+    width: 100%;
+    height: 20rem;
+}
+
+.aboutus {
+    background-color: white;
+    color: black
+}
+
+.about-us p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.2rem;
+    color: white;
+    justify-self: baseline;
+}
+
+.about-us p:hover {
+    color: gold;
+    transition: .2s ease-in-out, background-color .7s ease-in-out, color .7s ease-in-out;
+}
+
+section.time {
+    display: grid;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.time img {
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    border-radius: 50%;
+    width: 15rem;
+    height: 15rem;
+}
+
+.time a {
+    color: black;
+    background-color: yellowgreen;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 75%;
+    margin-left: 10rem;
+}
+
+.time a:hover {
+    color: white;
+    background-color: mediumblue;
+    transition: .2s ease-in-out, background-color .7s ease-in-out, color .7s ease-in-out;
+}
+
+.time a.github {
+    margin-left: 4.1rem;
+}
+
+.time a.facebook {
+    margin-left: 6.8rem;
+    margin-top: -2.5rem;
+}
+
+.time a.linkedin {
+    margin-left: 9.5rem;
+    margin-top: -2.5rem;
+}
+
+.card {
+    --bs-card-border-color: white;
+    --bs-card-border-width: 0%
+}
+
+section.products {
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.products .caixas {
+    position: relative;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+
+}
+
+.products img {
+    width: 262px;
+    height: 352px;
+    margin-bottom: 2rem;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.products .card {
+    margin-top: 2rem;
+    margin-left: 4rem;
+    margin-right: 3.5rem;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+@media (max-width: 855) {
+    .products .card {
+        align-self: center;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+    }
+}
+
+@media (min-width: 280px) and (max-width: 369px) {
+    .products .card {
+        margin-top: 2rem;
+        margin-left: 0rem;
+        margin-right: 0rem;
+    }
+}
+
+@media (min-width: 360px) and (max-width:540px) {
+    .products .card {
+        margin-top: 2rem;
+        margin-left: 3.5rem;
+        margin-right: 3rem;
+    }
+}
+
+@media (min-widht:760px) and (max-widht:850px) {
+    .products .card {
+        margin-top: 2rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+}
+
+@media (min-width: 856px) and (max-width:1023px) {
+    .products .card {
+        margin-top: 2rem;
+        margin-left: 5rem;
+        margin-right: 3rem;
+    }
+}
+
+@media (min-width: 1024px) and (max-width:1279px) {
+    .products .card {
+        margin-top: 2rem;
+        margin-left: 8rem;
+        margin-right: 3rem;
+    }
+}
+
+@media (min-width: 1280px) and (max-width:1500px) {
+    .products .card {
+        margin-top: 2rem;
+        margin-left: 5rem;
+        margin-right: 3rem;
+    }
+}
+
+
+.products p {
+    background-color: #212529;
+    color: white;
+    width: 7rem;
+    height: 3rem;
+    border: 1px solid;
+    border-radius: 90%;
+    align-self: center;
+    text-align: center;
+    padding-top: 0.5rem;
+}
+
+.products p:hover {
+    background-color: gold;
+    color: black;
+    font-weight: bold;
+    transition: .2s ease-in-out, background-color .7s ease-in-out, color .7s ease-in-out;
+}
+
+footer {
+    background-color: #212529;
+    padding: 0.1rem;
+}
+
+footer a,
+footer p {
+    margin-top: 0.8rem;
+    color: white;
+}
+
+footer a {
+    margin-left: 0.5rem;
+}
+
+.zap {
+    margin-left: 1.5rem;
+}
+
+/* Estilização do Carrinho */
+
+button.continue {
+    margin-left: 60rem;
+}
+
+.cart {
+    margin-top: 2rem;
+    align-self: center;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.product-name {
+    margin-top: 2rem;
+    align-self: center;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.img {
+    height: 200px;
+    width: 400px;
+}
+
+.price {
+    margin-right: -5rem;
+    margin-left: 50rem;
+    margin-top: -15rem;
+    ;
+}
+.confirm {
+    background-color: blue;
+    color: white;
+    width: 15rem;
+}
+.confirm:hover {
+    transition: .2s ease-in-out, background-color .7s ease-in-out, color .7s ease-in-out;
+    background-color: gold;
+    color: black;
+}
+
+.menu-cart {
+    width: 100%;
+
+    background-color: #212529;
+    margin-left: -10px;
+    margin-top: -10px;
+    height: 3rem
+}
+
+.menu-cart .logo {
+    width: 3rem;
+    height: 2.6rem;
+    margin-left: 0.5rem;
+    min-width: auto;
+}
+
+.menu-cart .central {
+    text-decoration: none;
+    font-size: 2.5rem;
+    margin-top: 0.2rem;
+    min-width: auto;
+}
+
+.menu-cart .central h2:hover {
+    color: white;
+    transition: .2s ease-in-out, background-color .7s ease-in-out, color .7s ease-in-out;
+}
