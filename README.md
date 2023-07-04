@@ -1,5 +1,7 @@
 # projeto_html_css_bootstrap
 
+Vercel: https://projeto-html-css-bootstrap.vercel.app/
+
 # Projeto de construção simples de um site, com HTML para marcação e CSS externo. Também foi aplicado alguns elementos Bootstrap, como um Carousel no header da página e um grid de cards na section #products.
 
 # Página única, ou seja, apenas a ''index.html''.
